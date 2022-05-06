@@ -16,6 +16,6 @@ jobs:
           ls ${{ github.workspace }}
       - name: Check machine name
         run: |
-	  whoami
-	  uname -a 
+          whoami
+          uname -a 
       - run: echo "🍏 This job's status is ${{ job.status }}."
